@@ -24,7 +24,6 @@ This repository contains the implementation of a project aimed at head pose esti
         <li>Creating Synthetic Labels</li>
         <li>Training a Custom CNN Model</li>
     </ol>
-
     <h2>Data Preprocessing</h2>
     <p>The data preprocessing step involves loading the images and extracting the head pose information from the filenames. The images are resized to 224x224 pixels and normalized. Here are some sample images from the training set:</p>
     <div class="image-container">
