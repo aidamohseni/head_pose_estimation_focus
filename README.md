@@ -33,10 +33,8 @@ This repository contains the implementation of a project aimed at head pose esti
         <img src="samples/train_sample_3.png" alt="Training Sample 3">
         <img src="samples/train_sample_4.png" alt="Training Sample 4">
     </div>
-
     <h2>Feature Extraction</h2>
     <p>Feature extraction is performed using a pre-trained VGG16 model. The model is loaded with the ImageNet weights, and the feature maps are extracted from the convolutional layers. These features are then used as input for the custom CNN model.</p>
-
     <h3>Understanding VGG16</h3>
     <p>The VGG16 model is a convolutional neural network architecture developed by the Visual Geometry Group at the University of Oxford. It is composed of 16 layers, including 13 convolutional layers and 3 fully connected layers. The model uses small 3x3 filters and max-pooling layers to reduce the spatial dimensions of the feature maps. VGG16 is widely used for image classification and object detection tasks due to its depth and ability to capture complex features. By using the pre-trained VGG16 model, we leverage its learned features from the ImageNet dataset, which helps in achieving better performance with less training data.</p>
     <p>For a detailed explanation of the VGG16 model, you can refer to the following sources:</p>
@@ -45,16 +43,12 @@ This repository contains the implementation of a project aimed at head pose esti
         <li><a href="https://builtin.com/data-science/vgg16-keras" target="_blank">Beginners Guide to VGG16 Implementation in Keras</a></li>
         <li><a href="https://www.geeksforgeeks.org/vgg-16-cnn-model/" target="_blank">VGG16 | CNN model - GeeksforGeeks</a></li>
     </ul>
-
     <h2>Creating Synthetic Labels</h2>
     <p>Synthetic labels are generated based on the head pose information. If the pitch, yaw, and roll values are within a certain threshold, the label is marked as attention (focused). Otherwise, it is marked as distraction (not focused).</p>
-
     <h2>Training the Custom CNN Model</h2>
     <p>The custom CNN model is trained using the extracted features and synthetic labels. The model architecture consists of multiple convolutional layers, max-pooling layers, and dense layers with dropout for regularization. The model is trained with data augmentation techniques to improve generalization.</p>
-
     <h2>Results</h2>
     <p>The trained model is evaluated on the test set, and the test accuracy is reported. The model's performance indicates its ability to accurately classify head poses as attention or distraction.</p>
-
     <h2>Conclusion</h2>
     <p>This project demonstrates the use of deep learning techniques for head pose estimation. The custom CNN model, trained with augmented data and synthetic labels, shows promising results in classifying head poses based on the Columbia Gaze dataset.</p>
 </body>
