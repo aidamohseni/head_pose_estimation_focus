@@ -1,12 +1,8 @@
 # head_pose_estimation_focus
 This repository contains the implementation of a project aimed at head pose estimation using a custom Convolutional Neural Network (CNN). The project utilizes the Columbia Gaze dataset, involving steps from data preprocessing, creating synthetic labels for attention and distraction, to training a custom CNN model.
 
-<!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Head Pose Estimation Project</title>
+    <H1>Head Pose Estimation Project</H1>
     <style>
         body { font-family: Arial, sans-serif; margin: 20px; }
         h1, h2, h3 { color: #333; }
@@ -14,8 +10,6 @@ This repository contains the implementation of a project aimed at head pose esti
         .image-container { display: flex; flex-wrap: wrap; }
         .image-container img { margin: 10px; border: 1px solid #ccc; }
     </style>
-</head>
-<body>
     <h1>Head Pose Estimation Project</h1>
     <p>This project aims to estimate head poses (attention and distraction) using a custom Convolutional Neural Network (CNN). The dataset used is the Columbia Gaze dataset. The project involves the following steps:</p>
     <ol>
@@ -51,6 +45,6 @@ This repository contains the implementation of a project aimed at head pose esti
     <p>The trained model is evaluated on the test set, and the test accuracy is reported. The model's performance indicates its ability to accurately classify head poses as attention or distraction.</p>
     <h2>Conclusion</h2>
     <p>This project demonstrates the use of deep learning techniques for head pose estimation. The custom CNN model, trained with augmented data and synthetic labels, shows promising results in classifying head poses based on the Columbia Gaze dataset.</p>
-</body>
+
 </html>
 
