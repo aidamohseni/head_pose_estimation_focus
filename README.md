@@ -3,14 +3,6 @@ This repository contains the implementation of a project aimed at head pose esti
 
 <html lang="en">
     <H1>Head Pose Estimation Project</H1>
-    <style>
-        body { font-family: Arial, sans-serif; margin: 20px; }
-        h1, h2, h3 { color: #333; }
-        img { max-width: 100%; height: auto; display: block; margin-bottom: 20px; }
-        .image-container { display: flex; flex-wrap: wrap; }
-        .image-container img { margin: 10px; border: 1px solid #ccc; }
-    </style>
-    <h1>Head Pose Estimation Project</h1>
     <p>This project aims to estimate head poses (attention and distraction) using a custom Convolutional Neural Network (CNN). The dataset used is the Columbia Gaze dataset. The project involves the following steps:</p>
     <ol>
         <li>Data Preprocessing</li>
